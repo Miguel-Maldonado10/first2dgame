@@ -1,0 +1,36 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+
+# Godot generated files
+.godot/
+.import/
+export/
+build/
+bin/
+
+# Godot editor specific files
+*.pck
+*.zip
+*.mobilepkg
+*.macos
+*.apk
+*.exe
+*.x86_64
+*.x86
+*.wasm
+*.html
+
+# Debug/Config files
+*.gdns
+*.gdnlib
+*.tscn.bak
+*.gd.bak
+*.gdc
+# The editor can generate a `project.godot.editor` file if the project is opened with different Godot versions.
+# This file usually doesn't need to be versioned.
+project.godot.editor
+
+# User specific (if not shared)
+.editorconfig
+.gitattributes
